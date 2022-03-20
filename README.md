@@ -46,7 +46,7 @@ Por último, si se introduce un valor no válido de cantidad de Bitcoin:
 Además, si la petición (fetch) a la API no va bien (por ejemplo, si no está levantado el servidor):
 
 
-Link a través de GitPod:
+El link a través de GitPod es:
 [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/201905597/exchangerates)
 
 Para que se ejecute todo correctamente, se debe poner el el buscador: localhost8080
