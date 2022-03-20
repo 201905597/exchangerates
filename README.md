@@ -48,5 +48,7 @@ Además, si la petición (fetch) a la API no va bien (por ejemplo, si no está l
 
 El link a través de GitPod es:
 [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/201905597/exchangerates)
+Nota: al ejecutar mvn spring-boot:run en la consola de Gitpod, da un error que no he sabido solucionar. Si se ejecuta lo mismo en CMD, funciona bien. 
+
 
 Para que se ejecute todo correctamente, se debe poner el el buscador: localhost8080
