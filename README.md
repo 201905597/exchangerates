@@ -13,19 +13,19 @@ para criptomonedas, divisas normales y commodities. El link a dicha API (gratuit
 <a href="https://api.coingecko.com/api/v3/exchange_rates" target="_blank">API</a>
 
 -Las clases de Java desarrolladas para Spring Boot son:
-    -Clase de configuración: ExchangeRateConfiguration.java
-    -Controller: ExchangeController.java
-    -Service: ExchangeRateService.java (interface) y la clase que lo implementa, ExchangeRateServiceImpl.java
+ -Clase de configuración: ExchangeRateConfiguration.java
+ -Controller: ExchangeController.java
+ -Service: ExchangeRateService.java (interface) y la clase que lo implementa, ExchangeRateServiceImpl.java
 
 -Para mostrar los resultados en HTML (bitcoin.html), se ha usado un archivo Javascript (prueba.js), que hace la validación del formulario y sus campos
 
 -Las dependencias de Spring Boot descargadas a través del Initializr son: Spring Web, Lombok y Validation
 
 -Se han utilizado, entre otras:
-    -RestTemplate
-    -JSonIgnoreProperties
-    -Bean
-    -Autowired
+ -RestTemplate
+ -JSonIgnoreProperties
+ -Bean
+ -Autowired
 
 ##### Gestión de errores
 En el JS del formulario se hacen una serie de comprobaciones (formato del DNI correcto, campos completos, cantidad de Bitcoin es un número y no un String...)
