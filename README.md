@@ -47,5 +47,6 @@ Además, si la petición (fetch) a la API no va bien (por ejemplo, si no está l
 
 
 Link a través de GitPod:
+https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/201905597/exchangerates
 
 Para que se ejecute todo correctamente, se debe poner el el buscador: localhost8080
