@@ -1,5 +1,6 @@
 package com.ejemplo.exchangerates.services;
 
+import com.ejemplo.exchangerates.domain.Rate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -19,7 +20,7 @@ public class ExchangeRateServiceImpl implements ExchangeRateService{
 
         String rate = restTemplate.getForObject(url, String.class);
 
-        return Arrays.asList(rate);
+       return Arrays.asList(rate);
     }
 
 }
